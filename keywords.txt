@@ -1,0 +1,48 @@
+# Syntax Coloring Map For CANSerial
+
+# Datatypes (KEYWORD1)
+Buffered_MCP_CAN KEYWORD1
+CANSerial KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+enableTxInterrupt KEYWORD2
+reserveTxBuffers KEYWORD2
+getLastTxBuffer KEYWORD2
+setSleepWakeup KEYWORD2
+sleep KEYWORD2
+wake KEYWORD2
+setMode KEYWORD2
+getMode KEYWORD2
+readMsgBufID KEYWORD2
+trySendMsgBuf KEYWORD2
+sendMsgBuf KEYWORD2
+clearBufferTransmitIfFlags KEYWORD2
+readRxTxStatus KEYWORD2
+checkClearRxStatus KEYWORD2
+checkClearTxStatus KEYWORD2
+mcpPinMode KEYWORD2
+mcpDigitalWrite KEYWORD2
+mcpDigitalRead KEYWORD2
+
+isBuffered KEYWORD2
+
+
+# Structures (KEYWORD3)
+can_frame KEYWORD3
+
+# Instances (KEYWORD2)
+
+
+# Constants (LITERAL1)
+_CS_UUID_SIZE LITERAL1
+_CS_MAX_RX_BUFF LITERAL1
+_CS_MAX_TX_BUFF LITERAL1
+GCC_VERSION LITERAL1
+_CAN_MAX_RX_BUF LITERAL1
+CAN_EFF_FLAG LITERAL1
+CAN_RTR_FLAG LITERAL1
+CAN_ERR_FLAG LITERAL1
+CAN_SFF_MASK LITERAL1
+CAN_EFF_MASK LITERAL1
+CAN_ERR_MASK LITERAL1
+
