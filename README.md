@@ -65,9 +65,9 @@ CANSerial CS(0x6E0,bufCAN);
 ```
 Notice that `CAN` is passed to Buffered_MCP_CAN and then the Buffered_MCP_CAN object is passed to CANSerial.
 
----
 The "base address" is what lets this client library and the PC server software mentioned above talk to each other. It needs to match `PKT_ID_UUID_FILTER` from `cansock.h` in the [CanSerial utility program](https://github.com/bondus/CanSerial/).
 
+---
 UUIDs for this are a maximum of 6 bytes, they need to be unique on your network for each device, not necessary to be pseudo-random.
 In `setup()` add:
 ```
